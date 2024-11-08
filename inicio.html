@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Nona Hilda</title>
+    <link rel="icon" href="./img/ico.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="barra">
+        <h2>🚫🚫🚫NO LE VENDEMOS A PELOTUDOS O A PROGRES🚫🚫🚫</h2>
+    </div>
+    <header> 
+        <nav>
+            <ul>
+                <img class="minilogo" src="./img/nona mini.png">
+                <h2><li><a href="#mantas">Mantas</a></li></h2>
+                <h2><li><a href="#niñas">Niñas</a></li></h2>
+                <h2><li><a href="#niños">Niños</a></li></h2>
+                <h2><li><a href="#pelu">Peluches</a></li></h2>
+                <h2><li><a href="#sets">Sets</a></li></h2>
+                <h2><li><a href=""><img src="./img/carro.png"> <span id="contador-carrito">0</span></a></li></h2>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="borde">
+            <h2>Bienvenidos a La Nona Hilda</h2>
+            <p>En La Nona Hilda, celebramos la belleza de la tradición artesanal a través de nuestra exclusiva colección de ropa para bebés.
+                Cada prenda es elaborada a mano con amor y dedicación. Nos enorgullece ofrecer piezas únicas, suaves y cálidas, perfectas para envolver a tu pequeño en confort y estilo.</p>
+        </section>
+        <section  id="mantas" class="categoria">
+        <div class="product-grid-container">
+            <h2 class="titulo Mantas">Mantas</h2>
+            <div class="product-grid" style="display: flex;">
+                <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 1, nombre: 'Set de 2 Mantas', precio: 14.99})">
+                    <img src="./img/mantas/manta1.png">
+                    <h3>Set de 2 Mantas</h3>
+                    <h3>$14.99</h3>
+                    <center><h3>Pulse Para Añadir al Carrito</h3></center>
+                </a>
+                <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 2, nombre: 'Set de Mantas', precio: 19.99})">
+                    <img src="./img/mantas/manta2.jpg">
+                    <h3>Set de Mantas</h3>
+                    <h3>$19.99</h3>
+                    <center><h3>Pulse Para Añadir al Carrito</h3></center>
+                </a>
+                <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 3, nombre: 'Set de Mantas', precio: 24.99})">
+                    <img src="./img/mantas/manta3.jpg">
+                    <h3>Set de Mantas</h3>
+                    <h3>$24.99</h3>
+                    <center><h3>Pulse Para Añadir al Carrito</h3></center>
+                </a>
+                <div class="arrow-container arrow-container-right">
+                    <span class="arrow right-arrow">›</span>
+                </div>
+            </div>
+            <div class="product-grid" style="display: none;">
+                <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 4, nombre: 'Set de Mantas', precio: 20.99})">
+                    <img src="./img/mantas/manta4.jpg">
+                    <h3>Set de Mantas </h3>
+                    <h3>$20.99</h3>
+                    <center><h3>Pulse Para Añadir al Carrito</h3></center>
+                </a>
+                <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 5, nombre: 'Set de Mantas Termicas', precio: 29.99})">
+                    <img src="./img/mantas/manta5.jpg">
+                    <h3>Set de Mantas Termicas</h3>
+                    <h3>$29.99</h3>
+                    <center><h3>Pulse Para Añadir al Carrito</h3></center>
+                </a>
+                <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 6, nombre: 'Set de 5 Mantas Termicas', precio: 34.99})">
+                    <img src="./img/mantas/manta6.jpg">
+                    <h3>Set de 5 Mantas Termicas</h3>
+                    <h3>$34.99</h3>       
+                    <center><h3>Pulse Para Añadir al Carrito</h3></center>
+                </a>
+                <div class="arrow-container arrow-container-left">
+                    <span class="arrow left-arrow">‹</span>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="niñas" class="categoria">
+    <div class="product-grid-container">
+        <h2 class="titulo">Ropa para Niña</h2>
+        <div class="product-grid" style="display: flex;">
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 7, nombre: 'Vestido de Verano', precio: 29.99})">
+                <img src="./img/ropa_f/nena1.png">
+                <h3>Vestido de Verano</h3>
+                <h3>$29.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 8, nombre: 'Vestido Marronaso', precio: 24.99})">
+                <img src="./img/ropa_f/nena2.jpg">
+                <h3>Vestido Marronaso</h3>
+                <h3>$24.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 9, nombre: 'Saco Rosa', precio: 34.99})">
+                <img src="./img/ropa_f/nena3.jpg">
+                <h3>Saco rosa</h3>
+                <h3>$34.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <div class="arrow-container arrow-container-right">
+                <span class="arrow right-arrow">›</span>
+            </div>
+        </div>
+        <div class="product-grid" style="display: none;">
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 10, nombre: 'Vestido Marronaso 2', precio: 39.99})">
+                <img src="./img/ropa_f/nena4.jpg">
+                <h3>Vestido Marronaso 2</h3>
+                <h3>$39.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 11, nombre: 'Vestido con Moño', precio: 19.99})">
+                <img src="./img/ropa_f/nena5.jpg">
+                <h3>Vestido con Moño</h3>
+                <h3>$19.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 12, nombre: 'Vestido con Valos', precio: 22.99})">
+                <img src="./img/ropa_f/nena6.jpg">
+                <h3>Vestido con Volados</h3>
+                <h3>$22.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <div class="arrow-container arrow-container-left">
+                <span class="arrow left-arrow">‹</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="niños" class="categoria">
+    <div class="product-grid-container">
+        <h2 class="titulo">Ropa para Niño</h2>
+        <div class="product-grid" style="display: flex;">
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 13, nombre: 'Cardigan Blanco', precio: 12.99})">
+                <img src="./img/ropa_m/nene1.png">
+                <h3>Cardigan Blanco</h3>
+                <h3>$12.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 14, nombre: 'Enterito y Gorro Marronasos', precio: 15.99})">
+                <img src="./img/ropa_m/nene2.jpg">
+                <h3>Enterito y Gorro Marronasos </h3>
+                <h3>$15.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 15, nombre: 'Conjunto Gris', precio: 9.99})">
+                <img src="./img/ropa_m/nene3.jpg">
+                <h3>Conjunto Gris</h3>
+                <h3>$9.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <div class="arrow-container arrow-container-right">
+                <span class="arrow right-arrow">›</span>
+            </div>
+        </div>
+        <div class="product-grid" style="display: none;">
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 16, nombre: 'Enterito con Trenzas', precio: 24.99})">
+                <img src="./img/ropa_m/nene4.jpg">
+                <h3>Enterito con Trenzas</h3>
+                <h3>$24.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 17, nombre: 'Conjunto Azul', precio: 19.99})">
+                <img src="./img/ropa_m/nene5.jpg">
+                <h3>Conjunto Azul</h3>
+                <h3>$19.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 18, nombre: 'Conjunto Bicolor', precio: 39.99})">
+                <img src="./img/ropa_m/nene6.jpg">
+                <h3>Conjunto Bicolor</h3>
+                <h3>$39.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <div class="arrow-container arrow-container-left">
+                <span class="arrow left-arrow">‹</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="pelu" class="categoria">
+    <div class="product-grid-container">
+        <h2 class="titulo">Peluches</h2>
+        <div class="product-grid" style="display: flex;">
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 19, nombre: 'Pingüino', precio:29.99})">
+                <img src="./img/peluches/pelu1.png">
+                <h3>Pingüino</h3>
+                <h3>$29.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 20, nombre: 'Elefante', precio: 34.99})">
+                <img src="./img/peluches/pelu2.jpg">
+                <h3>Elefante</h3>
+                <h3>$34.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 21, nombre: 'Abeja', precio: 19.99})">
+                <img src="./img/peluches/pelu3.jpg">
+                <h3>Abeja</h3>
+                <h3>$19.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <div class="arrow-container arrow-container-right">
+                <span class="arrow right-arrow">›</span>
+            </div>
+        </div>
+        <div class="product-grid" style="display: none;">
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 22, nombre: 'Pokemon', precio: 39.99})">
+                <img src="./img/peluches/pelu4.jpg">
+                <h3>Pokemon</h3>
+                <h3>$39.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 23, nombre: 'Vaquita', precio: 24.99})">
+                <img src="./img/peluches/pelu5.jpg">
+                <h3>Vaquita</h3>
+                <h3>$24.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 24, nombre: 'Dinosaurio', precio: 29.99})">
+                <img src="./img/peluches/pelu6.jpg">
+                <h3>Dinosaurio</h3>
+                <h3>$29.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <div class="arrow-container arrow-container-left">
+                <span class="arrow left-arrow">‹</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sets" class="categoria">
+    <div class="product-grid-container">
+        <h2 class="titulo">Sets</h2>
+        <div class="product-grid" style="display: flex;">
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 25, nombre: 'Set de Ositos', precio: 15.99})">
+                <img src="./img/sets/set1.png">
+                <h3>Set de Ositos</h3>
+                <h3>$15.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 26, nombre: 'Set de Mantas', precio: 19.99})">
+                <img src="./img/sets/set2.png">
+                <h3>Set de Dinosaurio</h3>
+                <h3>$22.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 27, nombre: 'Set de Ositos 2', precio: 9.99})">
+                <img src="./img/sets/set3.png">
+                <h3>Set de Ositos 2</h3>
+                <h3>$9.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <div class="arrow-container arrow-container-right">
+                <span class="arrow right-arrow">›</span>
+            </div>
+        </div>
+        <div class="product-grid" style="display: none;">
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 28, nombre: 'Set de Zorros', precio: 12.99})">
+                <img src="./img/sets/set4.jpg">
+                <h3>Set de Zorros</h3>
+                <h3>$12.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 29, nombre: 'Set de Mordillos', precio: 18.99})">
+                <img src="./img/sets/set5.jpg">
+                <h3>Set de Mordillos</h3>
+                <h3>$18.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <a href="javascript:void(0)" class="product-box" onclick="agregarAlCarrito({id: 30, nombre: 'Set de Animales', precio: 14.99})">
+                <img src="./img/sets/set6.jpg">
+                <h3>Set de Animales</h3>
+                <h3>$14.99</h3>
+                <center><h3>Pulse Para Añadir al Carrito</h3></center>
+            </a>
+            <div class="arrow-container arrow-container-left">
+                <span class="arrow left-arrow">‹</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <script src="script.js"></script>
+        <script src="carrito.js"></script>
+    </main>
+    <footer>
+        <p>Contacto: lanonahilda@gmail.com</p>
+        <p>Síguenos en redes sociales</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+    font-family: Josefin Sans, sans-serif;
+  }
+.caja_inicio_sesion{
+    width: 30rem;
+    height: 35rem;
+    background-color: rgb(253, 209, 227);
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+     position: absolute;
+    color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.caja_formulario--fields input{
+  width: 95%;
+  padding: .6rem;
+  margin-bottom: 2rem;
+  border-radius: none;
+  border-radius: 8px;
+}
+
+.caja_formulario--botones a, button{
+  background-color: white;
+  padding: 1rem;
+  border-radius: .7rem;
+  border: none;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
